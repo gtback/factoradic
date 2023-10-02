@@ -1,0 +1,22 @@
+# SPDX-FileCopyrightText: 2023 Greg Back <git@gregback.net>
+# SPDX-License-Identifier: CC-BY-SA-4.0
+
+[tool.poetry]
+name = "factoradic"
+version = "0.1.0"
+description = ""
+authors = ["Greg Back <git@gregback.net>"]
+readme = "README.md"
+packages = [{include = "factoradic", from = "src"}]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

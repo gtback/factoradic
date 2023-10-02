@@ -1,0 +1,8 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: factoradic
+Upstream-Contact: Greg Back <git@gregback.net>
+Source: https://github.com/gtback/factoradic
+
+Files: poetry.lock
+Copyright: 2023 Greg Back <git@gregback.net>
+License: CC0-1.0
